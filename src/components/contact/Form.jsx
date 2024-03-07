@@ -118,7 +118,7 @@ const Form = () => {
       <Toaster />
       <div className="px-[clamp(10px,5%,100px)] w-full">
         <div className="max-w-[878px]">
-          <p className="font-segoeUI font-black text-5xl text-[#333333]">
+          <p className="font-segoeUI font-black text-4xl sm:text-5xl text-[#333333]">
             We'd love to here from you
           </p>
           {/* <div className="h-[3px] w-24 bg-[#262626] rounded-sm my-7" /> */}
@@ -128,7 +128,7 @@ const Form = () => {
           </p>
         </div>
       </div>
-      <div className="h-fit w-full flex gap-0 flex-wrap-reverse gap-y-10 justify-between px-[clamp(10px,5%,100px)] pt-10 mb-24">
+      <div className="h-fit w-full flex gap-0 flex-wrap-reverse gap-y-10 justify-between px-[clamp(10px,5%,100px)] mb-24">
         <div className="flex flex-col gap-6 min-[760px]:w-[clamp(200px,48%,355px)]">
           <div className="flex gap-4 bg-[#FFFFFF] border border-[#F0F6FF] rounded-2xl p-4 pl-8">
             <img src={phone} className="w-6" loading="lazy" />

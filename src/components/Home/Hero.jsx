@@ -5,7 +5,7 @@ import heroCube from "../../assets/hero-cube.svg";
 const Hero = () => {
   return (
     <div className="mx-auto max-w-[1440px] flex flex-col items-center h-full">
-      <div className="min-h-full w-full flex flex-col justify-center items-center gap-6 px-[clamp(10px,5%,100px)] pt-10 relative">
+      <div className="min-h-full w-full flex flex-col justify-center items-center gap-6 pt-10 relative">
         <img
           src={heroCube}
           className="absolute top-0 -left-5 -z-10 w-16 sm:w-auto sm:top-10"
@@ -14,7 +14,7 @@ const Hero = () => {
           src={heroCube}
           className="absolute top-/ right-5 -z-10 w-16 sm:w-auto sm:top-/"
         />
-        <div>
+        <div className=" px-[clamp(10px,5%,100px)]">
           <p className="text-5xl min-[827px]:text-6xl leading-[4rem] text-center min-[827px]:leading-[5rem] min-[827px]:text-center font-segoeUI font-semibold text-lightdark">
             Lorem
           </p>
@@ -22,13 +22,13 @@ const Hero = () => {
             Ipsum Ipsum.
           </p>
         </div>
-        <p className="min-[827px]:text-center max-w-[827px] text-xl font-montserrat text-center text-lightdark">
+        <p className="min-[827px]:text-center max-w-[827px] text-xl px-[clamp(10px,5%,100px)] font-montserrat text-center text-lightdark">
           Our vision is to revolutionize Research through cutting-edge research
           and technology development, focusing on areas critical to human
           welfare and environmental sustainability.
         </p>
-        <div className="w-[40%] h-[1px] mt-4 bg-[#313131]" />
-        <div className="mt-2 w-full flex justify-center">
+        <div className="w-[40%] h-[1px] mt-4 bg-[#313131] px-[clamp(10px,5%,100px)]" />
+        <div className="mt-2 w-full flex justify-center px-[clamp(10px,5%,100px)]">
           <Link to={"/contact"} className="w-full flex justify-center">
             <button
               aria-label="Join Us"
@@ -38,10 +38,10 @@ const Hero = () => {
             </button>
           </Link>
         </div>
-        <div className="w-full mt-20 flex justify-center">
+        <div className="w-full mt-20 flex justify-center overflow-hidden sm:px-[clamp(10px,5%,100px)]">
           <img
             src={heroImage}
-            className="w-[493px,100%,1120px]"
+            className="w-[clamp(400px,100%,1120px)] mix-blend-multiply"
             loading="lazy"
           />
         </div>

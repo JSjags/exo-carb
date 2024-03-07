@@ -28,12 +28,12 @@ const MeetTheTeam = ({ centerTitle, showSubtitle }) => {
 
   return (
     <div className="w-full bg-[#FFFFFF] pb-28 mt-20">
-      <div className="mx-auto max-w-[1440px] flex flex-col items-center h-full">
+      <div className="mx-auto max-w-[1440px] w-full flex flex-col items-center h-full">
         <div className="min-h-full w-full flex flex-col justify-center items-center gap-6 px-[clamp(10px,5%,100px)] pt-10">
           <div className="w-full">
             <p className="font-inter text-[#0062FF] font-semibold">OUR TEAM</p>
             <p
-              className={`text-4xl min-[827px]:text-5xl  leading-[3rem] min-[827px]:leading-[4rem] ${
+              className={`text-4xl min-[827px]:text-5xl leading-[3rem] min-[827px]:leading-[4rem] ${
                 centerTitle ? "text-center" : "text-start"
               } ${
                 showSubtitle
@@ -51,13 +51,13 @@ const MeetTheTeam = ({ centerTitle, showSubtitle }) => {
               </p>
             )}
           </div>
-          <div className="w-full overflow-auto mt-4 custom-scrollbar">
-            <div className="w-full flex gap-x-10 min-w-[480px] pb-6">
+          <div className="w-screen min-[900px]:w-[calc(100vw-185px)] overflow-x-scroll mt-4 scrollbar-hide flex items-start sm:px-[clamp(10px,5%,100px)]">
+            <div className="flex justify-start space-x-10 overflow-scroll scrollbar-hide">
               {teams.map((team, i) => (
                 <button
                   key={i}
                   onClick={() => setCurrentTab(i)}
-                  className={`font-montserrat text-base font-semibold flex w-fit whitespace-nowrap ${
+                  className={`font-montserrat text-base font-semibold flex whitespace-nowrap ${
                     currentTab === i
                       ? "text-darkblue border-b-2 border-darkblue pb-3"
                       : "text-[#666666]"

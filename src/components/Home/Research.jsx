@@ -9,7 +9,7 @@ const Research = () => {
   return (
     <div className="w-full bg-[#EFF3FF] mt-20">
       <div className="relative mx-auto max-w-[1440px] flex flex-wrap justify-between items-center gap-6 px-[clamp(10px,5%,100px)] pt-28 pb-20">
-        <div className="flex-1 relative z-0 min-w-[400px]">
+        <div className="flex-1 relative z-0 min-w-[200px]">
           <p className="text-4xl min-[827px]:text-[3.4rem] text-[#1E254C] leading-[4rem] min-[827px]:leading-[4rem] font-segoeUI font-semibold">
             What happens when{" "}
             <span className="text-[#0035E8]">AI-driven decision-making</span>{" "}
@@ -37,7 +37,7 @@ const Research = () => {
             </Link>
           </div>
         </div>
-        <div className="flex mt-4 relative min-[827px]:mt-0 justify-center items-start flex-1 min-[827px]:gap-8 min-w-[400px] h-full">
+        <div className="flex mt-4 relative min-[827px]:mt-0 justify-center items-start flex-1 min-[827px]:gap-8 min-w-[200px] h-full">
           <img loading="lazy" src={researchImage} className="flex mx-auto" />
           <img
             loading="lazy"

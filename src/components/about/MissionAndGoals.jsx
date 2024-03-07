@@ -30,7 +30,7 @@ const MissionAndGoals = () => {
                 </div>
               </div>
               <div className="min-[900px]:flex w-[100%] min-[900px]:w-[clamp(200px,50%,562px)] rounded-lg relative flex-col gap-y-10">
-                <div className="relative p-6 pl-4 h-fit flex bg-white rounded-r-xl">
+                <div className="relative p-6 pl-4 h-fit flex bg-white rounded-r-xl gap-x-4">
                   <div className="w-[6px] h-full absolute left-0 top-0 bg-gradient-to-b from-[#0062FF] to-[#65D1FF]" />
                   <div className="flex-[0.2] flex justify-center items-center w-full h-auto">
                     <img src={communication} className="" />
@@ -46,7 +46,7 @@ const MissionAndGoals = () => {
                     </p>
                   </div>
                 </div>
-                <div className="relative p-6 pl-4 h-fit flex mt-6 bg-white rounded-r-xl">
+                <div className="relative p-6 pl-4 h-fit flex mt-6 bg-white rounded-r-xl gap-x-4">
                   <div className="w-[6px] h-full absolute left-0 top-0 bg-gradient-to-b from-[#0062FF] to-[#65D1FF]" />
                   <div className="flex-[0.2] flex justify-center items-center w-full h-auto">
                     <img src={empathy} className="" />
@@ -62,7 +62,7 @@ const MissionAndGoals = () => {
                     </p>
                   </div>
                 </div>
-                <div className="relative p-6 pl-4 h-fit flex mt-6 bg-white rounded-r-xl">
+                <div className="relative p-6 pl-4 h-fit flex mt-6 bg-white rounded-r-xl gap-x-4">
                   <div className="w-[6px] h-full absolute left-0 top-0 bg-gradient-to-b from-[#0062FF] to-[#65D1FF]" />
                   <div className="flex-[0.2] flex justify-center items-center w-full h-auto">
                     <img src={innovation} className="" />

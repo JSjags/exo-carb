@@ -11,7 +11,7 @@ import Form from "../components/contact/Form";
 
 const Home = () => {
   return (
-    <div className="pt-20 w-full min-h-screen overflow-hidden">
+    <div className="pt-20 max-w-full flex-1 min-h-screen overflow-hidden">
       <Hero />
       <Research />
       <HowWeWork />
