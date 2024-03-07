@@ -51,7 +51,7 @@ const MeetTheTeam = ({ centerTitle, showSubtitle }) => {
               </p>
             )}
           </div>
-          <div className="w-screen min-[900px]:w-[calc(100vw-185px)] overflow-x-scroll mt-4 scrollbar-hide flex items-start sm:px-[clamp(10px,5%,100px)]">
+          <div className="w-[calc(100vw-clamp(10px,5%,100px))] min-[900px]:w-[calc(100vw-185px)] overflow-x-scroll mt-4 scrollbar-hide flex items-start sm:px-[clamp(10px,5%,100px)]">
             <div className="flex justify-start space-x-10 overflow-scroll scrollbar-hide">
               {teams.map((team, i) => (
                 <button
