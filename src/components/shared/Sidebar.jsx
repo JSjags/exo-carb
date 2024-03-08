@@ -9,7 +9,7 @@ const Sidebar = () => {
   const location = useLocation();
 
   return (
-    <div className="hidden z-[100] min-[900px]:flex w-[185px] sticky top-0 left-0 h-screen bg-[#F7FAFF] flex-col justify-start px-6 overflow-y-auto custom-scrollbar transition-all duration-300">
+    <div className="hidden z-[100] min-[900px]:flex min-w-[185px] w-[185px] sticky top-0 left-0 h-screen bg-[#F7FAFF] flex-col justify-start px-6 overflow-y-auto custom-scrollbar transition-all duration-300">
       <Link to={"/"} className="mt-6">
         <h1 className="text-[30px] font-semibold text-lightdark">LOGO</h1>
       </Link>
